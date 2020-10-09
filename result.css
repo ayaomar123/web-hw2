@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding-top: 50px;
+}
+header {
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 50px;
+    box-shadow: 0 0 10px #999;
+}
+header a {
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header #logo {
+    float: left;
+}
+button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    width: 200px;
+    
+}
+button:hover{
+    background-color:green;
+}
+
+header #logo a {
+    font-size: 24px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+header #logo a span {
+    color:rgb(189, 115, 115);
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.item {
+    width: 33.3333%;
+    float: left;
+    border: black;
+}
+.item p{
+    float: left;
+    width: 200px;
+}
+
+.item img {
+    border: 5px solid #555;
+    width: 200px;
+    height: 200px;
+}
+.item img:hover{
+    color: #000;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color:rgb(189, 115, 115);
+    text-decoration: none;
+}
+.clearfix {
+    clear: both;
+    display: block;
+}
+
